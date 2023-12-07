@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Marketplace
 {
-    public partial class FrmMain : Form
+    public partial class FrmMain : DevExpress.XtraEditors.XtraForm
     {
         public FrmMain()
         {
