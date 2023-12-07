@@ -78,9 +78,9 @@ namespace Marketplace
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(800, 23);
+            this.barDockControlRight.Location = new System.Drawing.Point(800, 26);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 407);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 405);
             // 
             // barManager1
             // 
@@ -175,9 +175,7 @@ namespace Marketplace
             // 
             // bar3
             // 
-            this.bar3.BarAppearance.Normal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bar3.BarAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.bar3.BarAppearance.Normal.Options.UseBackColor = true;
             this.bar3.BarAppearance.Normal.Options.UseFont = true;
             this.bar3.BarName = "Status bar";
             this.bar3.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
@@ -195,23 +193,23 @@ namespace Marketplace
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(800, 23);
+            this.barDockControlTop.Size = new System.Drawing.Size(800, 26);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 430);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 431);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(800, 20);
+            this.barDockControlBottom.Size = new System.Drawing.Size(800, 19);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 23);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 26);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 407);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 405);
             // 
             // barDockControl3
             // 
@@ -262,12 +260,12 @@ namespace Marketplace
             // 
             this.pictureEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureEdit1.EditValue = global::Marketplace.Properties.Resources.background;
-            this.pictureEdit1.Location = new System.Drawing.Point(0, 23);
+            this.pictureEdit1.Location = new System.Drawing.Point(0, 26);
             this.pictureEdit1.MenuManager = this.barManager1;
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit1.Size = new System.Drawing.Size(800, 407);
+            this.pictureEdit1.Size = new System.Drawing.Size(800, 405);
             this.pictureEdit1.TabIndex = 4;
             // 
             // FrmMain
@@ -284,6 +282,8 @@ namespace Marketplace
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
+            this.LookAndFeel.SkinName = "Office 2019 White";
+            this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Marketplace";
